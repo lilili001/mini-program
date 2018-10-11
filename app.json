@@ -1,30 +1,29 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/home/index",
     "pages/detail/index",
     "pages/logs/logs",
     "pages/join/index"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#2e5e86",
     "navigationBarTitleText": "信贷demo",
-    "navigationBarTextStyle":"white",
+    "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true
-
   },
-  "tabBar":{
-    "color":"black",
+  "tabBar": {
+    "color": "black",
     "selectedColor": "#1d86f4",
     "backgroundColor": "#f9f8f7",
-    "position":"bottom",
-    "list":[
+    "position": "bottom",
+    "list": [
       {
         "pagePath": "pages/index/index",
-        "text":"首页",
-        "iconPath":"images/ic_home_normal.png",
-        "selectedIconPath":"images/ic_home_pressed.png"
+        "text": "首页",
+        "iconPath": "images/ic_home_normal.png",
+        "selectedIconPath": "images/ic_home_pressed.png"
       },
       {
         "pagePath": "pages/home/index",

@@ -17,7 +17,9 @@
 }
 
 .usermotto {
-  margin-top: 200px;
+  margin-top:400rpx;
+  background:red;
+  width:750rpx
 }
 .btn-area{
   margin-top:20px;

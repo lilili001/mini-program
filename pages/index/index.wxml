@@ -1,5 +1,15 @@
 <!--index.wxml-->
+
+<!--引入模板文件-->
+<import src="../common/template.wxml"/>
+<!--调用模板文件-->
+<template is="item" data="{{text:'index page trans data'}}"/>
+
+
 <view class="container">
+
+<include src="../common/header.wxml"/>
+
   <view class="userinfo">
     <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
     <block wx:else>
@@ -15,6 +25,9 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+
+  <include src="../common/footer.wxml"/>
+
 </view>
 
 
